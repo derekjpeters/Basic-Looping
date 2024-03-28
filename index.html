@@ -2,89 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Objects & Arrays</title>
+		<title>Basic Looping</title>
 	</head>
 
 	<body>
-		<h1>Hello, World!</h1>
+		<h1>Basic Looping</h1>
 
 		<script>
-			let myPet = {
-				type: "dog",
-				name: "Telly",
-				age: 9,
-			};
-
-			myPet.breed = "Mini Pincher";
-			myPet["isFriendly"] = true;
-
-			console.log(myPet.type); //output = Dog
-			console.log(myPet["name"]);
-			console.log(myPet);
-			console.log(myPet.breed);
-			console.log(myPet.age);
-			delete myPet.age;
-			console.log(myPet.age);
-			myPet.age = 11;
-			console.log(myPet.age);
-			const myPetString = `My pets name is ${myPet.name}, my pet's age is ${myPet.age}. Also, my pets breed is ${myPet.breed}.`;
-			const words = myPetString.split(" ");
-			console.log(words.length -1);
-      console.log(words.length);
-      console.log(words);
-
-      let colors = ["red", "green", "blue"];
-      let numbers = [1, 5, 23, 100];
-      const primitives = [true, 1, 'example', null, undefined];
-      colors[1] = "yellow";
-      console.log(colors);
-      console.log(colors[1]);
-      console.log(numbers[3]);
-      console.log(numbers[0]);
-      console.log(numbers.length);
-
-      let shoppingList = [
-        {item: "milk", quantity: 2 },
-        {item: "bread", quantity: 1 },
-        {item: "apples", quantity: 6}
-      ];
-
-      //Add a new item to the list
-
-     shoppingList.push({item: "cheese", quantity: 1});
-
-      console.log("Buy " + shoppingList[2].quantity + " " + shoppingList[2].item);
-
-      let movieRatings = [5 , 4, 3 , 4, 5];
-      movieRatings[1] = 5;
-      movieRatings[2] = 5;
-      console.log(movieRatings)
-
-      let groceryList = ['milk', 'bread', 'cheese'];
-      console.log(groceryList.length);
-      groceryList.push('eggs');
-      console.log(groceryList.length);
-      console.log(groceryList);
-
-      let items = ['a', 'b', 'c', 'e', 'f', 'g'];
-      items.push('d');
-      console.log(items);
-      items.length = 6;
-      items.length = 4;
-      console.log(items);
-
-      function buildUser(firstName, lastName, age) {
-        return{
-          firstName: firstName,
-          lastName: lastName,
-          age: age
-        };
-      }
-      let user = buildUser('Derek', 'Peters', 41);
-      console.log(user);
-
-
-
+		
 		</script>
 	</body>
 </html>
